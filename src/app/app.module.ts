@@ -10,6 +10,8 @@ import { RecipesDetailComponent } from './recipes/recipes-detail/recipes-detail.
 import { RecipesItemComponent } from './recipes/recipes-list/recipes-item/recipes-item.component';
 import { ShoppingListComponent } from './shopping-list/shopping-list.component';
 import { ShoppingEdditComponent } from './shopping-list/shopping-eddit/shopping-eddit.component';
+import { ServerElementComponent } from './server-element/server-element.component';
+import { CockpitComponent } from './cockpit/cockpit.component';
 
 
 
@@ -22,7 +24,9 @@ import { ShoppingEdditComponent } from './shopping-list/shopping-eddit/shopping-
     RecipesDetailComponent,
     RecipesItemComponent,
     ShoppingListComponent,
-    ShoppingEdditComponent
+    ShoppingEdditComponent,
+    ServerElementComponent,
+    CockpitComponent
   ],
   imports: [
     BrowserModule,

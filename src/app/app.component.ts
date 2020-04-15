@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
   serverElement = []
   serverElements = [{type: 'server', name: 'Testserver', content: 'Just a test'}];
-
+  loadedFeature = 'recipe'
   onServerAdded(serverData: { serverName: string, serverContent: string }) {
     this.serverElements.push({
       type: 'server',
@@ -23,5 +23,8 @@ export class AppComponent {
       name: blueprintData.serverName,
       content: blueprintData.serverContent
     });
+  }
+  onNavigate(feature: string) {
+    this.loadedFeature = feature;
   }
 }

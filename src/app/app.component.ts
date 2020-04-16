@@ -8,7 +8,9 @@ import { Component } from '@angular/core';
 export class AppComponent {
   serverElement = []
   serverElements = [{type: 'server', name: 'Testserver', content: 'Just a test'}];
-  loadedFeature = 'recipe'
+  loadedFeature = 'recipe';
+  evenNumbers:number[] = [1,3,5,7,9];
+  onlyOdd:boolean = false;
   onServerAdded(serverData: { serverName: string, serverContent: string }) {
     this.serverElements.push({
       type: 'server',

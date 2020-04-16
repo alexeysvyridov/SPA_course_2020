@@ -12,7 +12,8 @@ import { ShoppingListComponent } from './shopping-list/shopping-list.component';
 import { ShoppingEdditComponent } from './shopping-list/shopping-eddit/shopping-eddit.component';
 import { ServerElementComponent } from './server-element/server-element.component';
 import { CockpitComponent } from './cockpit/cockpit.component';
-
+import { UnlessDirective } from './unless.directive';
+import { DropdownDirective } from './shared/dropdown.directive'
 
 
 @NgModule({
@@ -26,7 +27,9 @@ import { CockpitComponent } from './cockpit/cockpit.component';
     ShoppingListComponent,
     ShoppingEdditComponent,
     ServerElementComponent,
-    CockpitComponent
+    CockpitComponent,
+    UnlessDirective,
+    DropdownDirective
   ],
   imports: [
     BrowserModule,
